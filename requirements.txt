@@ -1,0 +1,30 @@
+# Core ML
+torch>=2.4.0
+torchvision>=0.19.0
+transformers>=4.46.0
+accelerate>=1.0.0
+deepspeed>=0.15.0
+trl>=0.13.0
+peft>=0.13.0
+datasets>=3.0.0
+
+# Vision / Video
+qwen-vl-utils
+decord
+Pillow
+
+# Optional accelerators
+flash-attn>=2.6.0  # pip install flash-attn --no-build-isolation
+
+# Logging
+wandb
+tqdm
+
+# API providers (optional, for eval_api.py)
+openai>=1.50.0
+google-genai
+
+# Utilities
+numpy
+requests
+packaging

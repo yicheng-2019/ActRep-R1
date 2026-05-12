@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Outputs / experiments
+outputs/
+checkpoints/
+wandb/
+runs/
+logs/
+*.log
+
+# Data (do not commit)
+data/
+videos/
+*.mp4
+*.avi
+*.mkv
+*.csv
+*.jsonl
+
+# Model weights
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Notebooks
+.ipynb_checkpoints/
