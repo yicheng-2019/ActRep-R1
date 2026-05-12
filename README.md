@@ -1,12 +1,6 @@
 # ActRep-R1
 
-**Reasoning for Video Repetitive Action Counting via Multimodal Large Language Models with Reinforcement Learning**
-
-ActRep-R1 is a post-training framework that adapts Multimodal Large Language Models (MLLMs) to repetitive action counting (RAC) through structured reasoning and reinforcement learning. The framework consists of:
-
-- A structured reasoning format with temporal-aware verification
-- **Random Count Sampling (RCS)** — a data augmentation strategy that addresses count distribution imbalance via stratified ratio sampling
-- A two-stage training pipeline: **SFT → GRPO** with a count-normalized hybrid reward
+Official code repository for the paper *Reasoning for Video Repetitive Action Counting via Multimodal Large Language Models with Reinforcement Learning*.
 
 ## Pipeline
 
