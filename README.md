@@ -112,16 +112,6 @@ python eval_api.py --provider openai --model gpt-4o \
 
 Metrics: **OBO** (Off-By-One accuracy), **Exact** match, **MAE** (normalized), **RMSE**.
 
-## Video Resolution & OOM Prevention
-
-GRPO replicates each video tensor `num_generations` times. For high-resolution datasets (1080p), control memory usage with `--max_pixels`:
-
-| `--max_pixels` | 1080p resized | Tokens | Use case |
-|----------------|---------------|--------|----------|
-| (default)      | 1920×1088     | ~20K   | Low-resolution datasets |
-| 393216         | 832×448       | ~3.6K  | Mixed-resolution datasets |
-| 262144         | 672×384       | ~2.5K  | Conservative |
-
 ## Important Notes
 
 - DeepSpeed ZeRO-3 with generation-based eval during training causes hangs. Evaluate checkpoints separately after training finishes.
