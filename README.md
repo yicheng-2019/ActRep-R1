@@ -48,11 +48,14 @@ ActRep-R1/
 
 ## Installation
 
+Tested with **Python 3.12**, **PyTorch 2.8**, **CUDA 12.8**, **transformers 4.57**.
+
 ```bash
 pip install -r requirements.txt
-```
 
-Tested with PyTorch ≥ 2.4, transformers ≥ 4.46, deepspeed ≥ 0.15, trl ≥ 0.13, and flash-attn 2.
+# flash-attn must be installed separately (no build isolation)
+pip install flash-attn --no-build-isolation
+```
 
 ## Data Format
 
